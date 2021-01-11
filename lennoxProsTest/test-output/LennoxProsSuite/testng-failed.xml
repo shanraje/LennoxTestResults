@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LennoxProsSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LennoxProsTest(failed)">
+    <groups>
+      <run>
+        <include name="logInPage"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="lennoxPros.lennoxProsTest.LogInPage.LogInpageClass">
+        <methods>
+          <include name="loginPage"/>
+        </methods>
+      </class> <!-- lennoxPros.lennoxProsTest.LogInPage.LogInpageClass -->
+    </classes>
+  </test> <!-- LennoxProsTest(failed) -->
+</suite> <!-- Failed suite [LennoxProsSuite] -->
